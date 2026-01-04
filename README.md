@@ -116,9 +116,8 @@ Insights:
 ### Density Heatmap
 ![Theft Heatmap](visualizations/theft_heatmap.png)
 
-## Actionable Recommendations
+## Recommendations For UF Police Department:
 
-**For UF Police Department:**
 Increase security in Zone 3 (East Residential):
    - Additional bike rack lighting around the major dorms.
    - Increased patrols during Fall semester, especially towards the start and in September.
@@ -132,13 +131,13 @@ Increase security in Zone 3 (East Residential):
 
 ## Technical Skills Demonstrated
 
-Data cleaning and quality assessment such as the filtering of duplicates
-SQL database design and querying
-K-means clustering and via Elbow Method
-Model validation via Silhouette Analysis
-Geospatial data analysis
-Data visualization
-Statistical analysis and pattern recognition
+- Data cleaning and quality assessment such as the filtering of duplicates
+- SQL database design and querying
+- K-means clustering and via Elbow Method
+- Model validation via Silhouette Analysis
+- Geospatial data analysis
+- Data visualization
+- Statistical analysis and pattern recognition
 
 ## Connect
 
