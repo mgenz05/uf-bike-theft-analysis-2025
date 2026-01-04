@@ -100,7 +100,7 @@ Insights:
 | Optimal K | 5 | Via Elbow Method |
 | Silhouette Score | 0.475 | Good cluster separation for geographic data |
 | Best Cluster | Zone 5 (0.992) | Isolated southern campus area |
-| **Weakest Cluster** | Zone 4 (0.399) | Central campus area with a natural overlap of other clusters |
+| Weakest Cluster | Zone 4 (0.399) | Central campus area with a natural overlap of other clusters |
 
 **Validation:** Silhouette score of 0.475 is far from perfect but is strong enough for this purpose and for most real world geographic data.
 
@@ -111,6 +111,7 @@ Insights:
 
 ### Geographic Risk Zones
 ![Cluster Map](visualizations/cluster_map.png)
+**Note**: Cluster 5 is not shown on this map due to it being an outlier cluster, causing the map to appear significantly smaller.
 
 ### Density Heatmap
 ![Theft Heatmap](visualizations/theft_heatmap.png)
