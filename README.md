@@ -100,7 +100,7 @@ Insights:
 | Optimal K | 5 | Via Elbow Method |
 | Silhouette Score | 0.475 | Good cluster separation for geographic data |
 | Best Cluster | Zone 5 (0.992) | Isolated southern campus area |
-| **Weakest Cluster** | Zone 4 (0.399) | Central campus area with a natural overlap of other clusters |
+| Weakest Cluster | Zone 4 (0.399) | Central campus area with a natural overlap of other clusters |
 
 **Validation:** Silhouette score of 0.475 is far from perfect but is strong enough for this purpose and for most real world geographic data.
 
@@ -111,19 +111,19 @@ Insights:
 
 ### Geographic Risk Zones
 ![Cluster Map](visualizations/cluster_map.png)
+**Note**: Cluster 5 is not shown on this map due to it being an outlier cluster, causing the map to appear significantly smaller.
 
 ### Density Heatmap
 ![Theft Heatmap](visualizations/theft_heatmap.png)
 
-## Actionable Recommendations
+## Recommendations For UF Police Department
 
-**For UF Police Department:**
 Increase security in Zone 3 (East Residential):
    - Additional bike rack lighting around the major dorms.
    - Increased patrols during Fall semester, especially towards the start and in September.
    - Consider surveillance cameras at top theft locations.
 
-## Future Improvements
+## Future Enhancements
 
 - Incorporate weather data to analyze theft patterns during rain or extreme heat
 - Specific time of day data to predict future theft trends
@@ -131,13 +131,13 @@ Increase security in Zone 3 (East Residential):
 
 ## Technical Skills Demonstrated
 
-Data cleaning and quality assessment such as the filtering of duplicates
-SQL database design and querying
-K-means clustering and via Elbow Method
-Model validation via Silhouette Analysis
-Geospatial data analysis
-Data visualization
-Statistical analysis and pattern recognition
+- Data cleaning and quality assessment such as the filtering of duplicates
+- SQL database design and querying
+- K-means clustering and Elbow Method
+- Model validation via Silhouette Analysis
+- Geospatial data analysis
+- Data visualization
+- Statistical analysis and pattern recognition
 
 ## Connect
 
